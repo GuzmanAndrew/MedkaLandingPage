@@ -86,11 +86,6 @@ banner
 	font-size: 32px;
 }
 
-.navbar-brand img {
-    padding-top: 2px;
-    width: 120px !important;
-}
-
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     color: #EA6045;
 }
@@ -104,6 +99,7 @@ banner
 .top-nav-collapse {
     padding: 0;
     background: rgba(28,74,90, 0.9);
+    height: 78px;
 }
 
 .white, .white:hover, .white:focus
@@ -490,14 +486,22 @@ footer
     text-transform: none;
 }
 
-.plat-image {
-    width: 850px;
+
+.logo {
+    width: 205px; 
+    margin-top: -16px;
 }
 
 #img-center {
+    width: 1000px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+}
+
+.navbar-nav {
+    padding-top: 10px;
 }
 
 @media (min-width: 551px) and (max-width: 980px){
