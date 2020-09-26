@@ -242,10 +242,6 @@ h6 {
 
 /* Desktop Navigation */
 
-.main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
-}
 
 .main-nav,
 .main-nav * {
@@ -1095,7 +1091,7 @@ h6 {
   padding: 8px 0;
   margin-right: 4px;
   border-radius: 50%;
-  text-align: center;
+  text-align: auto;
   width: 36px;
   height: 36px;
   transition: 0.3s;
@@ -1326,6 +1322,18 @@ h6 {
   color: #f1f7ff;
 }
 
+#logoMedka {
+  width: 145px;
+  position: relative;
+  bottom: 6px;
+}
+
+#plataforma {
+  height: 365px;
+  max-width:
+  width auto;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -1408,5 +1416,8 @@ h6 {
 @media (max-width: 574px) {
   #intro {
     padding: 100px 0 20px 0;
+  }
+  #plataforma {
+    height: 280px;
   }
 }
