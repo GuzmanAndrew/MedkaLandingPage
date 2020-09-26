@@ -1323,9 +1323,15 @@ h6 {
 }
 
 #logoMedka {
-  width: 126px;
+  width: 145px;
   position: relative;
-  bottom: 14px;
+  bottom: 6px;
+}
+
+#plataforma {
+  height: 365px;
+  max-width:
+  width auto;
 }
 
 /*--------------------------------------------------------------
@@ -1410,5 +1416,8 @@ h6 {
 @media (max-width: 574px) {
   #intro {
     padding: 100px 0 20px 0;
+  }
+  #plataforma {
+    height: 280px;
   }
 }
